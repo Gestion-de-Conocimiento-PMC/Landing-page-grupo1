@@ -33,10 +33,7 @@ export const Navbar = () => {
             ))}
           </div>
           
-          <div className="hidden md:flex items-center gap-4">
-            <Button variant="ghost">Iniciar sesión</Button>
-            <Button variant="default">Comenzar gratis</Button>
-          </div>
+          {/* Botones de iniciar sesión y comenzar gratis eliminados */}
           
           <button
             className="md:hidden text-foreground"
@@ -58,10 +55,7 @@ export const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <div className="flex flex-col gap-2 pt-4">
-              <Button variant="ghost" className="w-full">Iniciar sesión</Button>
-              <Button variant="default" className="w-full">Comenzar gratis</Button>
-            </div>
+            {/* Botones de iniciar sesión y comenzar gratis eliminados en móvil */}
           </div>
         )}
       </div>
