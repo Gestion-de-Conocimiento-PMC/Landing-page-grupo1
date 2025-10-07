@@ -23,7 +23,7 @@ export const Hero = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              TaskFlow AI analiza tus tareas y actividades para crear horarios personalizados que se adaptan a tu ritmo. Deja que la IA organice tu día mientras tú te enfocas en lo importante.
+              TaskFlow AI analiza tus tareas y actividades para crear horarios personalizados que se adaptan a tus necesidades. Deja que la IA organice tu dia para tener la mejor productividad.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
