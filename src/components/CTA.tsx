@@ -25,6 +25,7 @@ export const CTA = () => {
             <Button
               size="lg"
               className="bg-white text-primary hover:bg-white/90 shadow-xl hover:shadow-2xl hover:scale-110 hover:rotate-2 group transition-all duration-300"
+              onClick={() => window.open('https://www.figma.com/make/cbDE7cyCs44SK9hAAkAqtX/AI-Powered-Weekly-Planner?node-id=0-1&t=zCImvBJ9KMntXdQK-1', '_blank')}
             >
               Comenzar gratis
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
@@ -33,6 +34,7 @@ export const CTA = () => {
               size="lg"
               variant="outline"
               className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-primary hover:scale-110 hover:-rotate-2 transition-all duration-300"
+              onClick={() => window.open('https://www.figma.com/make/cbDE7cyCs44SK9hAAkAqtX/AI-Powered-Weekly-Planner?node-id=0-1&t=zCImvBJ9KMntXdQK-1', '_blank')}
             >
               Probar Pro
             </Button>

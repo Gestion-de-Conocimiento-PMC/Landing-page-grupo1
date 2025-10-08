@@ -40,7 +40,7 @@ export const Navbar = () => {
                 {link.name}
               </button>
             ))}
-            <Button variant="hero" size="sm" className="group">
+            <Button variant="hero" size="sm" className="group" onClick={() => window.open('https://www.figma.com/make/cbDE7cyCs44SK9hAAkAqtX/AI-Powered-Weekly-Planner?node-id=0-1&t=zCImvBJ9KMntXdQK-1', '_blank')}>
               Comenzar gratis
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
@@ -68,7 +68,7 @@ export const Navbar = () => {
                 {link.name}
               </button>
             ))}
-            <Button variant="hero" size="sm" className="group w-full mt-4">
+            <Button variant="hero" size="sm" className="group w-full mt-4" onClick={() => window.open('https://www.figma.com/make/cbDE7cyCs44SK9hAAkAqtX/AI-Powered-Weekly-Planner?node-id=0-1&t=zCImvBJ9KMntXdQK-1', '_blank')}>
               Comenzar gratis
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>

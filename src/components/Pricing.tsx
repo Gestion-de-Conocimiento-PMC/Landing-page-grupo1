@@ -96,6 +96,7 @@ export const Pricing = () => {
                 variant={plan.popular ? "hero" : "outline"}
                 size="lg"
                 className="w-full"
+                onClick={() => window.open('https://www.figma.com/make/cbDE7cyCs44SK9hAAkAqtX/AI-Powered-Weekly-Planner?node-id=0-1&t=zCImvBJ9KMntXdQK-1', '_blank')}
               >
                 {plan.cta}
               </Button>
