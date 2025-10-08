@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { useState } from "react";
+import LogoPMC from "/LogoPMC.png";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,7 @@ export const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="flex items-center gap-2 hover:scale-105 transition-all duration-300 cursor-pointer" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-            <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg" />
+            <img src={LogoPMC} alt="PMC Logo" className="w-16 h-16 object-contain" />
             <span className="text-4xl font-bold text-foreground">
               PLAN<span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">IA</span>R
             </span>
