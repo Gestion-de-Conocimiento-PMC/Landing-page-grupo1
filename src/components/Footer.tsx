@@ -29,7 +29,7 @@ export const Footer = () => {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg" />
-              <span className="text-2xl font-bold text-foreground">TaskFlow AI</span>
+              <span className="text-2xl font-bold text-foreground"> PLAN<span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">IA</span>R</span>
             </div>
             <p className="text-muted-foreground max-w-md">
               Transforma el caos en productividad con inteligencia artificial. Organiza tu vida, una tarea a la vez.
@@ -91,7 +91,7 @@ export const Footer = () => {
         </div>
         
         <div className="pt-8 border-t border-border text-center text-muted-foreground">
-          <p>© 2025 TaskFlow AI. Todos los derechos reservados.</p>
+          <p>© 2025  PLAN<span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">IA</span>R. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

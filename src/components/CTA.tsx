@@ -18,7 +18,7 @@ export const CTA = () => {
           </h2>
           
           <p className="text-xl text-white/90 leading-relaxed">
-            Únete a más de 50,000 profesionales que ya están multiplicando su productividad con TaskFlow AI. Tu primer horario personalizado te está esperando.
+            Únete a más de 10 personas que ya están multiplicando su productividad con  PLANIAR. Tu horario personalizado te está esperando.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
@@ -26,7 +26,7 @@ export const CTA = () => {
               size="lg"
               className="bg-white text-primary hover:bg-white/90 shadow-xl hover:shadow-2xl hover:scale-110 hover:rotate-2 group transition-all duration-300"
             >
-              Crear cuenta gratis
+              Comenzar gratis
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
             </Button>
             <Button
@@ -34,7 +34,7 @@ export const CTA = () => {
               variant="outline"
               className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-primary hover:scale-110 hover:-rotate-2 transition-all duration-300"
             >
-              Agendar demo
+              Probar Pro
             </Button>
           </div>
           

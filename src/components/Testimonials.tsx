@@ -5,8 +5,8 @@ const testimonials = [
   {
     name: "María González",
     role: "Directora de Marketing",
-    content: "TaskFlow AI cambió completamente mi forma de trabajar. Ahora tengo tiempo para lo que realmente importa y mi equipo está más organizado que nunca.",
-    rating: 5,
+    content: "PLANIAR cambió completamente mi forma de trabajar. Ahora tengo tiempo para lo que realmente importa y mi equipo está más organizado que nunca.",
+    rating: 4,
     avatar: "MG",
   },
   {
@@ -19,7 +19,7 @@ const testimonials = [
   {
     name: "Ana Martínez",
     role: "Desarrolladora de Software",
-    content: "Como persona con TDAH, necesitaba algo más que una lista de tareas. TaskFlow AI me da estructura sin quitarme flexibilidad. Es perfecto.",
+    content: "Como persona con TDAH, necesitaba algo más que una lista de tareas. PLANIAR me da estructura sin quitarme flexibilidad. Es perfecto.",
     rating: 5,
     avatar: "AM",
   },
@@ -37,7 +37,7 @@ export const Testimonials = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Descubre cómo TaskFlow AI está transformando la vida de profesionales como tú
+            Descubre cómo PLANIAR está transformando la vida de profesionales como tú.
           </p>
         </div>
         

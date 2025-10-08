@@ -20,7 +20,7 @@ const features = [
   {
     icon: TrendingUp,
     title: "Maximiza tu Productividad",
-    description: "Aumenta tu eficiencia hasta un 40% con planificación inteligente basada en tu rendimiento.",
+    description: "Aumenta tu eficiencia hasta un 20% con planificación inteligente basada en tu rendimiento.",
     image: featureProductivity,
   },
   {
@@ -72,7 +72,7 @@ export const Features = () => {
                   />
                 </div>
               ) : (
-                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-accent/80 flex items-center justify-center mb-6 group-hover:scale-125 group-hover:rotate-12 transition-all duration-300 group-hover:shadow-glow">
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[hsl(260,60%,65%)] to-[hsl(280,55%,70%)] flex items-center justify-center mb-6 group-hover:scale-125 group-hover:rotate-12 transition-all duration-300 group-hover:shadow-[var(--shadow-glow)]">
                   <feature.icon className="w-7 h-7 text-primary-foreground group-hover:scale-110 transition-transform" />
                 </div>
               )}

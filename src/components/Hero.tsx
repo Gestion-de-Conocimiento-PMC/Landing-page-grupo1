@@ -3,6 +3,13 @@ import { ArrowRight, Sparkles } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
 
 export const Hero = () => {
+  const scrollToHowItWorks = () => {
+    const element = document.getElementById('how-it-works');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-muted/30 to-background">
       <div className="absolute inset-0 bg-[linear-gradient(to_right,hsl(var(--primary)/0.03)_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--primary)/0.03)_1px,transparent_1px)] bg-[size:4rem_4rem]" />
@@ -23,7 +30,7 @@ export const Hero = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
-              TaskFlow AI analiza tus tareas y actividades para crear horarios personalizados que se adaptan a tus necesidades. Deja que la IA organice tu dia para tener la mejor productividad.
+              PLANIAR analiza tus tareas y actividades para crear horarios personalizados que se adaptan a tus necesidades. Deja que la IA organice tu dia para tener la mejor productividad.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -31,24 +38,24 @@ export const Hero = () => {
                 Comenzar gratis
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" size="lg">
+              <Button variant="outline" size="lg" onClick={scrollToHowItWorks}>
                 Ver cómo funciona
               </Button>
             </div>
             
             <div className="flex items-center gap-8 pt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-foreground">50k+</div>
+                <div className="text-3xl font-bold text-foreground">10</div>
                 <div className="text-sm text-muted-foreground">Usuarios activos</div>
               </div>
               <div className="h-12 w-px bg-border" />
               <div className="text-center">
-                <div className="text-3xl font-bold text-foreground">98%</div>
+                <div className="text-3xl font-bold text-foreground">90%</div>
                 <div className="text-sm text-muted-foreground">Satisfacción</div>
               </div>
               <div className="h-12 w-px bg-border" />
               <div className="text-center">
-                <div className="text-3xl font-bold text-foreground">2M+</div>
+                <div className="text-3xl font-bold text-foreground">40</div>
                 <div className="text-sm text-muted-foreground">Tareas organizadas</div>
               </div>
             </div>

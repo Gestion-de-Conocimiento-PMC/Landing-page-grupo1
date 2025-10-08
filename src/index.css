@@ -89,3 +89,17 @@ All colors use HSL format with blue and purple color palette.
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .bg-gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .bg-gradient-accent {
+    background: var(--gradient-accent);
+  }
+}
