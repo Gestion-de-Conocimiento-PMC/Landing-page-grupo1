@@ -41,8 +41,8 @@ export const Navbar = () => {
                 {link.name}
               </button>
             ))}
-            <Button variant="hero" size="sm" className="group" onClick={() => window.open('https://www.figma.com/make/cbDE7cyCs44SK9hAAkAqtX/AI-Powered-Weekly-Planner?node-id=0-1&t=zCImvBJ9KMntXdQK-1', '_blank')}>
-              Comenzar gratis
+            <Button variant="hero" size="sm" className="group" onClick={() => window.open('https://planiar.vercel.app/', '_blank')}>
+              Comenzar
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>

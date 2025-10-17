@@ -15,7 +15,7 @@ const plans = [
       "Acceso web",
       "Soporte por email",
     ],
-    cta: "Comenzar gratis",
+    cta: "Comenzar",
     popular: false,
   },
   {
@@ -30,7 +30,7 @@ const plans = [
       "Reportes de productividad",
       "Soporte prioritario 24/7",
     ],
-    cta: "Probar 14 días gratis",
+    cta: "Comenzar",
     popular: true,
   },
   {
@@ -46,7 +46,7 @@ const plans = [
       "Roles y permisos",
       "Gerente de cuenta dedicado",
     ],
-    cta: "Contactar ventas",
+    cta: "Comenzar",
     popular: false,
   },
 ];
@@ -96,7 +96,7 @@ export const Pricing = () => {
                 variant={plan.popular ? "hero" : "outline"}
                 size="lg"
                 className="w-full"
-                onClick={() => window.open('https://www.figma.com/make/cbDE7cyCs44SK9hAAkAqtX/AI-Powered-Weekly-Planner?node-id=0-1&t=zCImvBJ9KMntXdQK-1', '_blank')}
+                onClick={() => window.open('https://planiar.vercel.app/', '_blank')}
               >
                 {plan.cta}
               </Button>

@@ -13,9 +13,9 @@ const Index = () => {
     <div className="min-h-screen font-['Inter',sans-serif]">
       <Navbar />
       <Hero />
-      <WhyPlaniar />
       <Features />
       <HowItWorks />
+      <WhyPlaniar />
       <Testimonials />
       <Pricing />
       <CTA />

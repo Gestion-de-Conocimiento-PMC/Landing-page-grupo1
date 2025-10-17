@@ -63,8 +63,8 @@ export const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button variant="hero" size="lg" className="group" onClick={() => window.open('https://www.figma.com/make/cbDE7cyCs44SK9hAAkAqtX/AI-Powered-Weekly-Planner?node-id=0-1&t=zCImvBJ9KMntXdQK-1', '_blank')}>
-                Comenzar gratis
+              <Button variant="hero" size="lg" className="group" onClick={() => window.open('https://planiar.vercel.app/', '_blank')}>
+                Comenzar
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="lg" onClick={scrollToHowItWorks}>

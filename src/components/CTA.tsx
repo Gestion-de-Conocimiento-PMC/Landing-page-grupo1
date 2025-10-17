@@ -25,9 +25,9 @@ export const CTA = () => {
             <Button
               size="lg"
               className="bg-white text-primary hover:bg-white/90 shadow-xl hover:shadow-2xl hover:scale-110 hover:rotate-2 group transition-all duration-300"
-              onClick={() => window.open('https://www.figma.com/make/cbDE7cyCs44SK9hAAkAqtX/AI-Powered-Weekly-Planner?node-id=0-1&t=zCImvBJ9KMntXdQK-1', '_blank')}
+              onClick={() => window.open('https://planiar.vercel.app/', '_blank')}
             >
-              Comenzar gratis
+              Comenzar
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
             </Button>
             <Button
