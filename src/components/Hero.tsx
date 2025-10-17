@@ -7,9 +7,10 @@ export const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   const carouselImages = [
-    "/Figma1.jpeg",
-    "/Figma2.jpeg", 
-    "/Figma3.jpeg"
+    "/DASHBOARD.png",
+    "/PLANNER.png", 
+    "/SCHEDULE.png",
+    "/TASK.png"
   ];
 
   // Debug para verificar que las imágenes cargan
